@@ -21,7 +21,8 @@
     "prepublishOnly": "ng build lib",
     "release": "standard-version",
     "serve": "node ./dist/server.js",
-    "docker": "docker build -t ngx-slimscroll ."
+    "docker": "docker build -t ngx-slimscroll .",
+    "postinstall": "ng build lib"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.900.3",
